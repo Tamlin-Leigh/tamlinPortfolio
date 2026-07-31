@@ -85,6 +85,26 @@ export default function Projects() {
           ))}
         </Box>
 
+        <Box sx={{
+          mt: 5,
+          p: 3,
+          borderRadius: 2,
+          border: '1px solid',
+          borderColor: 'rgba(255,255,255,0.08)',
+          bgcolor: 'rgba(255,255,255,0.03)',
+        }}>
+          <Typography variant="body2" color="text.secondary" sx={{ lineHeight: 1.8 }}>
+            <Box component="span" sx={{ color: 'primary.main', fontWeight: 600 }}>Note: </Box>
+            A number of the systems I've worked on are client-owned and cannot be publicly shared due to confidentiality.
+            These include work done at{' '}
+            <Box component="a" href="https://fluenty.co.za/" target="_blank" rel="noreferrer"
+              sx={{ color: 'primary.main', textDecoration: 'underline', textUnderlineOffset: 3 }}>
+              Fluenty IT
+            </Box>
+            {' '}across various client platforms — spanning Laravel back-ends, React front-ends, and full-stack admin systems.
+          </Typography>
+        </Box>
+
       </Box>
     </Box>
   );

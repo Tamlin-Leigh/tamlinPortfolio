@@ -45,7 +45,7 @@ export const PROFICIENCY = [
   { skill: 'JavaScript',          level: 75 },
   { skill: 'PHP & Laravel',       level: 85 },
   { skill: 'React & Next.js',     level: 70 },
-  { skill: 'MySQL',               level: 60 },
+  { skill: 'MySQL',               level: 80 },
   { skill: 'Git & DevOps',        level: 60 },
   { skill: 'Graphic Design',      level: 90 },
   { skill: 'AI Tools',            level: 78 },
@@ -87,7 +87,7 @@ export const EXPERIENCE = [
     company: 'Fluenty IT',
     link: 'https://fluenty.co.za/',
     role: 'Full Stack Software Developer',
-    period: '2021 – Present',
+    period: '2021 – 2026',
     current: true,
     description: [
       'Joined with no prior experience in the Laravel PHP framework. Despite this, quickly adapted and developed the necessary skills to contribute effectively.',
@@ -121,7 +121,7 @@ export const EDUCATION = [
 export const PROJECTS = [
   {
     name: 'Ampath',
-    description: 'Contributed to the Ampath platform — a large-scale healthcare web application. Worked on both the public-facing site and the admin system.',
+    description: 'I contributed to the Ampath platform — a large-scale healthcare web application. Worked on both the public-facing site and the admin system.',
     tech: ['PHP', 'JavaScript', 'CSS'],
     live: 'https://www.ampath.co.za/',
     repo: '',
@@ -134,10 +134,10 @@ export const PROJECTS = [
     live: 'https://tamlinportfolio.web.app',
   },
   {
-    name: 'Project Three',
-    description: 'Add a description of one of your personal or professional projects here.',
-    tech: ['Laravel', 'React', 'MySQL'],
-    repo: '',
+    name: 'EvoTracker',
+    description: 'A work-in-progress full-stack body measurement tracker built with React and Laravel. Log monthly measurements, visualise your cm loss through charts, and get 3-month progress estimates.',
+    tech: ['React', 'Laravel', 'Firebase Auth', 'Firestore', 'Vercel', 'Railway'],
+    repo: 'https://github.com/Tamlin-Leigh/evotracker',
     live: '',
   },
 ];
