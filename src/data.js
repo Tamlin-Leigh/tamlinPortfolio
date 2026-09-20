@@ -2,6 +2,8 @@ export const PERSONAL = {
   name: 'Tamlin Duckworth',
   title: 'Full Stack Mid-Level Software Developer',
   location: 'Goodwood, Cape Town',
+  citizenship: 'South African & UK Citizen',
+  availability: 'Open to remote/contract work with UK companies',
   email: 'tamlinleighduckworth@gmail.com',
   phone: '061 064 0484',
   github: 'https://github.com/Tamlin-Leigh',

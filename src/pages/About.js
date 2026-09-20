@@ -51,6 +51,7 @@ export default function About() {
                 </Typography>
                 <Stack spacing={1.75} divider={<Divider />}>
                   <InfoRow label="Location">{PERSONAL.location}</InfoRow>
+                  <InfoRow label="Citizenship">{PERSONAL.citizenship}</InfoRow>
                   <InfoRow label="Email">
                     <Box component="a" href={`mailto:${PERSONAL.email}`}
                       sx={{ color: 'primary.main', textDecoration: 'underline', textUnderlineOffset: 3 }}>
@@ -59,7 +60,7 @@ export default function About() {
                   </InfoRow>
                   <InfoRow label="Phone">{PERSONAL.phone}</InfoRow>
                   <InfoRow label="Status">
-                    <Box component="span" sx={{ color: 'primary.main' }}>Open to opportunities</Box>
+                    <Box component="span" sx={{ color: 'primary.main' }}>{PERSONAL.availability}</Box>
                   </InfoRow>
                 </Stack>
               </CardContent>
