@@ -1,6 +1,7 @@
 import { Box, Typography, Card, CardContent, Chip, Stack } from '@mui/material';
 import { keyframes } from '@mui/system';
-import { EXPERIENCE, EDUCATION } from '../data';
+import { EXPERIENCE, EDUCATION, RECOMMENDATIONS } from '../data';
+import Recommendations from '../components/Recommendations';
 import codespaceLogo from '../assets/codespace-logo.svg';
 import fluentyLogo from '../assets/fluenty-logo.svg';
 
@@ -95,6 +96,13 @@ export default function Experience() {
             <TimelineItem key={i} role={job.role} company={job.company} period={job.period} current={job.current} bullets={job.description} link={job.link} logo={job.link ? COMPANY_LOGOS[job.company] : undefined} />
           ))}
         </Box>
+
+        {RECOMMENDATIONS.some((r) => process.env.NODE_ENV === 'development' || !r.placeholder) && (
+          <Box mb={6}>
+            <SectionLabel>Recommendations</SectionLabel>
+            <Recommendations />
+          </Box>
+        )}
 
         <Box>
           <SectionLabel>Education</SectionLabel>

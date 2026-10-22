@@ -122,11 +122,18 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    name: 'Ampath',
-    description: 'I contributed to the Ampath platform — a large-scale healthcare web application. Worked on both the public-facing site and the admin system.',
-    tech: ['PHP', 'JavaScript', 'CSS'],
-    live: 'https://www.ampath.co.za/',
-    repo: '',
+    name: 'BandLink',
+    description: 'A work-in-progress Laravel platform connecting bands, venues and event organisers. Each user type signs up with its own role and gets a dedicated dashboard for finding and booking gigs.',
+    tech: ['Laravel', 'PHP'],
+    repo: 'https://github.com/Tamlin-Leigh/bandlink-laravel',
+    live: '',
+  },
+  {
+    name: 'EvoTracker',
+    description: 'A work-in-progress full-stack body measurement tracker built with React and Laravel. Log monthly measurements, visualise your cm loss through charts, and get 3-month progress estimates.',
+    tech: ['React', 'Laravel', 'Firebase Auth', 'Firestore', 'Vercel', 'Railway'],
+    repo: 'https://github.com/Tamlin-Leigh/evotracker',
+    live: '',
   },
   {
     name: 'Portfolio Site',
@@ -136,11 +143,11 @@ export const PROJECTS = [
     live: 'https://tamlinportfolio.web.app',
   },
   {
-    name: 'EvoTracker',
-    description: 'A work-in-progress full-stack body measurement tracker built with React and Laravel. Log monthly measurements, visualise your cm loss through charts, and get 3-month progress estimates.',
-    tech: ['React', 'Laravel', 'Firebase Auth', 'Firestore', 'Vercel', 'Railway'],
-    repo: 'https://github.com/Tamlin-Leigh/evotracker',
-    live: '',
+    name: 'Ampath',
+    description: 'I contributed to the Ampath platform — a large-scale healthcare web application. Worked on both the public-facing site and the admin system.',
+    tech: ['PHP', 'JavaScript', 'CSS'],
+    live: 'https://www.ampath.co.za/',
+    repo: '',
   },
 ];
 
@@ -162,5 +169,25 @@ export const REFERENCES = [
     company: 'Monetize',
     role: 'Sr. Software Engineer (E-commerce)',
     phone: '071 535 7620',
+  },
+];
+
+// LinkedIn recommendations.
+export const RECOMMENDATIONS = [
+  {
+    name: "Vincent van Wyk",
+    title: "Senior DevSecOps Engineer - CardRails Infrastructure",
+    company: "Peach Payments",
+    relationship: " Worked with Tamlin at Fluenty",
+    date: "Oct 2026",
+    text: "I had the pleasure of working with Tamlin at Fluenty and appreciated the opportunity to see her contribute to our software development team. Tamlin is a dedicated Fullstack Developer with an understanding of the importance of building software that is functional, reliable, maintainable, and user-friendly. Working across front-end and back-end development requires versatility, problem-solving skills, and attention to detail, along with the ability to integrate APIs, troubleshoot technical challenges, and contribute to delivering complete software solutions. Beyond technical skills, Tamlin brings a willingness to learn, adaptability, and a collaborative approach to her work. These qualities are particularly valuable in the fast-paced world of software development, where technologies evolve constantly and teamwork plays an essential role in delivering successful products. I believe Tamlin has valuable skills to offer, and I wish her continued growth and success in her software development career. I would happily recommend her to organisations looking for a committed Fullstack Developer who is eager to contribute, learn, and grow professionally.",
+  },
+  {
+    name: "Emma Dicks",
+    title: "CEO & Co-Founder",
+    company: "CodeSpace Academy",
+    relationship: " CodeSpace graduate community",
+    date: "Oct 2026",
+    text: "Since graduating from CodeSpace, Tammi has been an active member of our graduate community. She has shared her experience as an in-person panelist at our Code Conversation series, generously passing on her knowledge. I know Tammi as a very hardworking and loyal person who takes great pride in delivering high quality.",
   },
 ];
