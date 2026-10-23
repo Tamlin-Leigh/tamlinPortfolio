@@ -59,9 +59,10 @@ function RecommendationCard({ name, title, company, relationship, date, text }) 
             <Typography variant="caption" color="text.secondary" display="block" lineHeight={1.4}>
               {[title, company].filter(Boolean).join(' · ')}
             </Typography>
-            {(relationship || date) && (
-              <Typography variant="caption" color="text.secondary" display="block" sx={{ opacity: 0.7 }} lineHeight={1.4}>
-                {[relationship, date].filter(Boolean).join(' · ')}
+            {(relationship) && (
+            <Typography variant="caption" color="text.secondary" display="block" sx={{ opacity: 0.7 }} lineHeight={1.4}>
+              <br></br>
+                {[relationship].filter(Boolean).join(' · ')}
               </Typography>
             )}
           </Box>
