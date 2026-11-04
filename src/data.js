@@ -122,10 +122,10 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    name: 'BandLink',
+    name: 'LineUp',
     description: 'A work-in-progress Laravel platform connecting bands, venues and event organisers. Each user type signs up with its own role and gets a dedicated dashboard for finding and booking gigs.',
     tech: ['Laravel', 'PHP'],
-    repo: 'https://github.com/Tamlin-Leigh/bandlink-laravel',
+    repo: 'https://github.com/Tamlin-Leigh/lineup-laravel',
     live: '',
   },
   {
