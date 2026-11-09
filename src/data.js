@@ -154,13 +154,13 @@ export const PROJECTS = [
 export const REFERENCES = [
   {
     name: 'Shane Demper',
-    company: 'Fluenty IT',
+    company: 'Aoex Business Intelligence',
     role: 'Project Manager & Scrum Master',
     phone: '079 395 8610',
   },
   {
     name: 'Jacques Coetzee',
-    company: 'Fluenty IT',
+    company: 'Scrums.com',
     role: 'Senior Developer & Mentor',
     phone: '083 255 5554',
   },
