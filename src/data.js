@@ -154,7 +154,7 @@ export const PROJECTS = [
 export const REFERENCES = [
   {
     name: 'Shane Demper',
-    company: 'Aoex Business Intelligence',
+    company: 'Apex Business Intelligence',
     role: 'Project Manager & Scrum Master',
     phone: '079 395 8610',
   },
